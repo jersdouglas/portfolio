@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2? família= Abrir+Sans:wght@300;400;500;600;700;800 & display=swap');
+*{
+	margin: 0;
+	padding: 0;
+}
+.navegacao {
+	background: #808080;
+	border-radius: 25px;
+}
+
+.container {
+	padding-top: 10px;
+	padding-right: 10px;
+	background: #a6a6a6;
+	height: 250px;
+}
+ul{
+	padding-top: 10px;
+}
+ul li i p{
+	font-size: 25px;
+}
+
+i{
+	color: #f2f2f2;
+}
+
+.espacamento{
+	margin: 30px 0 0 30px;
+}
+.form-control{
+	width: 450px;
+	text-align: center;
+
+}
+.gallery-container{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	gap: 2vw;
+	padding: 0 1vw;
+}
+.gallery-items{
+	border-radius: 30px;
+	width: 200px;
+	height: 200px;
+	border: 10px solid #f2f2f269;
+	box-shadow: 5px 5px 5px #0006;
+	transition: transform 0.10s linear;
+}
+.gallery-items img{
+	border-radius: 20px;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+footer{
+	background: #808080;
+	border-radius: 25px;
+}
+
+
+footer span{
+	padding: 20px;
+	color: rgb(204, 51, 51);
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	font-style: italic;
+}
+footer a{
+	text-decoration: none;
+	color: rgb(204, 51, 51);
+}
+footer a:hover{
+	text-decoration: none;
+	color: rgb(204, 51, 51);
+}
+.myIcon img{
+	height: 100px;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	border-radius: 50px;
+	display: flex;
+	justify-content: flex-start;
+}
+.myIcon p {
+	color: #000;
+	display: flex;
+	font-family: 'Open Sans';
+	font-weight: 500;
+	font-size: 25px;
+}
+.sobreMim {
+	padding-top: 10px;
+	padding-right: 10px;
+	font-family: 'Open Sans';
+	display: flex;
+	justify-content: center;
+}
+.sobre {
+	padding: 20px;
+	background: rgb(152,149,149);
+	background: linear-gradient(56deg, rgba(152,149,149,0.6026785714285714) 28%, rgba(152,149,149,0.6) 67%);
+	font-family: 'Open Sans';
+	font-weight: 300;
+	border-radius: 30px 10px 30px 10px;
+}
+.projetos {
+	padding-top: 10px;
+	padding-right: 10px;
+	text-align: center;
+	font-family: 'Open Sans';
+}
+.sobre p {
+	font-size: 23px;
+}
+ul li a:hover{
+	text-decoration: none;
+}
+.color_html{
+	color: #f16529;
+}
+.color_js{
+	color: #f0db4f;
+}
+.color_css{
+	color: #33a9dc;
+}
+.color_bootstrap{
+	color: #7511f6;
+}
+.color_php{
+	color: #7586c1;
+}
+.desc_projetos{
+	padding: 10px;
+	background: rgb(152,149,149);
+	background: linear-gradient(56deg, rgba(152,149,149,0.6026785714285714) 28%, rgba(152,149,149,0.6) 67%);
+	font-family: 'Open Sans';
+	font-weight: 300;
+	border-radius: 20px;
+	justify-content: center;
+}
