@@ -55,7 +55,7 @@ footer a{
 }
 footer a:hover{
 	text-decoration: none;
-	color: #fff;
+	color: #181818;
 }
 .myIcon img{
 	height: 100px;
@@ -126,7 +126,7 @@ ul li a:hover{
 	font-family: 'Open Sans';
 	font-weight: 300;
 	border-radius: 20px;
-	justify-content: center;
+	justify-content: center center;
 }
 
 /* Botao de Voltar pro Topo */
