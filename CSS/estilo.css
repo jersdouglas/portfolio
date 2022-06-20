@@ -146,3 +146,26 @@ div a:hover{
 	color: rgb(117, 0, 138);
 	text-decoration-color: rgba(rgba(255, 0, 0, 0), rgba(0, 128, 0, 0), rgba(0, 0, 255, 0));
 }
+/* Menu Lateral */
+nav{
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    transition: all 1s;
+}
+input[type="checkbox"]{
+    display: none;
+   }
+.btn-menu{
+	color: white;
+	cursor: pointer;
+	z-index: 1;
+}
+.btn-menu:hover{
+    border: 2px solid white;
+	border-radius: 10px;
+}
+input[type="checkbox"]:checked ~ nav{
+    transform: translateY(-120px);
+}
+
